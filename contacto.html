@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midas MEDIAS</title>
+    <link rel="icon" href="Multimedia\favicon.ico">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href= link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito&display=swap" rel="stylesheet">
+    
+     <link rel="stylesheet" href="css/style.css">
+    
+     <script src="https://kit.fontawesome.com/60e6d67294.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+          <div id="logo">
+            <i class="fa-solid fa-socks"></i>
+                <span>
+              MIDAS MEDIAS
+               </span>
+            <div id="subtitulo"> 
+             <span>
+                 LAS MEDIAS QUE QUIERAS
+             </span>
+            </div>
+          </div>
+          <ul class="nav-links">
+            <li> <a href="/index.html">Home</a> </li>  
+              <li> <a href="#catalogo">Catálogo</a> </li>
+              <li> <a href="/Sobrenosotros.html">Sobre Nosotros</a> </li>
+              <li> <a href="/contacto.html">Contacto</a> </li>
+              <li> 
+                   <a href="" class="btn-cac">
+                       <i class="fa-solid fa-bag-shopping"></i>
+                        Hacé tu pedido
+                   </a> 
+              </li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="titulo">
+            <h1>Contacto</h1>
+
+            <div id="wrap">
+                <br><br>
+                    <form id="contactForm">
+                                <label for="email">Rellene este formulario para ponerse en contacto con nosotros.</label>
+                                <br><br>
+                        <label for="email">Tu Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Ingrese su correo.">
+                        <label for="nombre">Tu Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre.">
+                        <label for="asunto">Asunto:</label>
+                        <input type="text" id="asunto" name="asunto" placeholder="Breve descripción del mensaje">
+                        <label for="descripcion">Descripción del mensaje:</label>
+                        <span class="caracteres">Tamaño máximo 500 letras</span>
+                        <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Escriba el mensaje detalladamente. 
+                Le responderemos al email de contacto lo antes posible."></textarea>
+                        <div id="comprueba">
+                            <p>Comprobación Anti Spam: </p>
+                            <input type="text" id="n1" name="n1" readonly> + <input type="text" id="n2" name="n2" readonly>
+                            =
+                            <input type="text" id="res" name="res" maxlength="2">
+                        </div>
+                        <input type="submit" id="enviar" value="Enviar">
+                        <div style="clear:both"></div>
+                        <div id="respuesta"></div>
+                    </form>
+
+                    <br><br>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.1276543211666!2d-58.4328139!3d-34.600933399999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca71bf350b7d%3A0x1026e272b2f125b4!2sAguirre%20120%2C%20C1414ASD%20CABA!5e0!3m2!1ses-419!2sar!4v1653687778379!5m2!1ses-419!2sar" 
+                width="400" 
+                height="300" 
+                style="border:0;"
+                 allowfullscreen="" 
+                 loading="lazy" 
+                 referrerpolicy="no-referrer-when-downgrade">
+             
+              
+        </iframe>            
+
+    </main>
+    <footer class="footer">
+        <div class="container-footer">
+            <nav class="footer-social">
+              <a href="https://www.instagram.com/midasmedias" target="_blank" class="footer-social-icon"><i class="fa fa-instagram"></i></a>
+              <a href="https://twitter.com/midasmedias" target="_blank" class="footer-social-icon"><i class="fa fa-twitter"></i></a>
+              <a href="#" target="_blank" class="footer-social-icon"><i class="fa fa-youtube"></i>
+              </a>	
+            </nav>
+    
+    
+            <nav class="footer-derechos">
+                <p>©SheiChabube - Todos los derechos reservados</p>
+            </nav>
+                    
+        </div>
+    </footer>
+</body>
+</html>
